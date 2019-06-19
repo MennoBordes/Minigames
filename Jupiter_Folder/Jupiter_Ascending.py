@@ -249,7 +249,7 @@ def game_intro():
         text_surf1, text_rect1 = Important.text_objects("Welcome to Jupiter Ascending", large_text, textcolor)
         text_rect1.center = (windowWidth/2, windowHeight/2/3.5)
 
-        text_surf2, text_rect2 = Important.text_objects("The goal is to collect fuel, which can be found at the planet's surface.", small_text, textcolor)
+        text_surf2, text_rect2 = Important.text_objects("The goal is to collect fuel, which can be found below the outer clouds.", small_text, textcolor)
         text_rect2.center = (windowWidth/2, windowHeight/2/2)
 
         text_surf3, text_rect3 = Important.text_objects("However there is only one path.", small_text, textcolor)
